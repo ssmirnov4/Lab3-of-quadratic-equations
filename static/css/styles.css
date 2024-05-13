@@ -1,0 +1,34 @@
+.form-center {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Roboto Medium', sans-serif;
+  border: 2px solid #d9d2d2;
+}
+
+button{
+appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676D7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+button:hover {
+  background: #1d49aa;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+input {
+  width: 35%;
+  padding: 12px 12px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border-radius:20px;
+}
